@@ -1,4 +1,4 @@
-# Auto mobile Company Report
+# Automobile Company Report
 
 
 ## Problem Statement
