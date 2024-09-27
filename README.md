@@ -3,11 +3,16 @@
 
 ## Problem Statement
 
-This dashboard helps the airlines understand their customers better. It helps the airlines know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delay & departure time, thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted delays.
+This dashboard helps the Auto mobile Company understand their customers better. 
+To develop the dashboard that displays the key performances metrics for the informed decision-making.
+#### Requirement:
+- Hourly revenue analysis
+- Profit and revenue trends
+- Seasonal revenue
+- rider demographics
 
-Since, number of neutral/dissatisfied customers (almost 57 %) are more than satisfied customers (around 43 %), thus in all they must work on improving their services. 
+Since, there is increase in the demand compared to the previous year (2021), profit margin increased by 45%.
 
-Also since average delay in arrival & departure both is 15 minutes, thus they must try to reduce it.
 
 ### Data Analysis workflow
 - Create a database
@@ -126,87 +131,21 @@ Transforming data - 0 to 2021, 1 to 2022 in table:
 
 # Insights
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+Conservative Increase: Considering the substantial increase last year, a more conservative increase might be prudent to avoid hitting a price ceiling where demand starts to drop. An increase in the range of 10-15% could test the market's response without risking a significant loss of customers.
 
-Following inferences can be drawn from the dashboard;
+### Price Setting:
 
-### [1] Total Number of Customers = 129880
+If the price in 2022 was $4.99, a 10% increase would make the new price about $5.49.
 
-   Number of satisfied Customers (Male) = 28159 (21.68 %)
+A 15% increase would set the price at approximately $5.74.
 
-   Number of satisfied Customers (Female) = 28269 (21.76 %)
+### Recommended Strategy:
 
-   Number of neutral/unsatisfied customers (Male) = 35822 (27.58 %)
+Market Analysis: Conduct further market research to understand customer satisfaction, potential competitive changes, and the overall economic environment. This can guide whether leaning towards the lower or higher end of the suggested increase.
 
-   Number of neutral/unsatisfied customers (Female) = 37630 (28.97 %)
+### Segmented Pricing Strategy:
 
+ Consider different pricing for casual versus registered users, as they may have different price sensitivities.
 
-           thus, higher number of customers are neutral/unsatisfied.
-           
-### [2] Average Ratings
-
-    a) Baggage Handling - 3.63/5
-    b) Check-in Service - 3.31/5
-    c) Cleanliness - 3.29/5
-    d) Ease of online booking - 2.88/5
-    e) Food & Drink - 3.21/5
-    f) In-flight Entertainment - 3.36/5
-    g) In-flight service - 3.64/5
-    h) In-flight Wifi service - 2.81/5
-    i) Leg room service - 3.37/5
-    j) On-board service - 3.38/5
-    k) Online boarding - 3.33/5
-    l) Seat comfort - 3.44/5
-    m) Departure & arrival convenience - 3.22/5
-  
-  while calculating average rating, null values have been ignored as they were not relevant for some customers. 
-  
-  These ratings will change if different visual filters will be applied.  
-  
-  ### [3] Average Delay 
-  
-      a) Average delay in arrival(minutes) - 15.09
-      b) Average delay in departure(minutes) - 14.71
-Average delay will change if different visual filters will be applied.
-
- ### [4] Some other insights
- 
- ### Class
- 
- 1.1) 47.87 % customers travelled by Business class.
- 
- 1.2) 44.89 % customers travelled by Economy class.
- 
- 1.3) 7.25 % customers travelled by Economy plus class.
- 
-         thus, maximum customers travelled by Business class.
- 
- ### Age Group
- 
- 2.1)  21.69 % customers belong to '0-25' age group.
- 
- 2.2)  52.44 % customers belong to '25-50' age group.
- 
- 2.3)  25.57 % customers belong to '50-75' age group.
- 
- 2.4)  0.31 % customers belong to '75-100' age group.
- 
-         thus, maximum customers belong to '25-50' age group.
-         
-### Customer Type
-
-3.1) 18.31 % customers have customer type 'First time'.
-
-3.2) 81.69 % customers have customer type 'returning'.
-       
-       thus, more customers have customer type 'returning'.
-
-### Type of travel
-
-4.1) 69.06 % customers have travel type 'Business'.
-
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
-
-
+### Monitor and Adjust: 
+Implement the new prices but be ready to adjust based on immediate customer feedback and sales data. Monitoring closely will allow you to fine-tune your pricing strategy without committing fully to a price that might turn out to be too high.
