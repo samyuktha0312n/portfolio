@@ -26,6 +26,8 @@ Since, there is increase in the demand compared to the previous year (2021), pro
 - Step 1 : Collect the required data set.
 - Step 2 : Connected the SQL server and Created the new database named bike_data.
 - Step 3 : Load the dataset collected into the SQL server and stored inside tables in the form of dbo. files (bike_share_yr_0, bike_share_yr_1, cost_table ).
+  ![Screenshot 2024-09-27 202805](https://github.com/user-attachments/assets/96580061-b943-4dd6-9621-6d0de62f6f52)
+
 - Step 4 : Data cleaning steps removed the unwanted column in the table and joined both files (bike_share_yr_0, bike_share_yr_1) by using union.Included the cost_table file by using left join.
 - Step 5 : Selected dteday, season, a.yr,weekday, hr, rider_type, riders, price, COGS for analysis.
 - Step 6 : Calculated revenue(riders * price) and profit(riders * price - COGS * riders).
