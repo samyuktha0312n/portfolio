@@ -68,7 +68,7 @@ Since, there is increase in the demand compared to the previous year (2021), pro
        vii) Created the slicer for analysing the for specific year.
            
 
-1) To analysis revenue for the hour and weekdays respectively,
+1) To analysis revenue for the hourly and weekdays respectively,
 
 ![Screenshot 2024-09-27 105454](https://github.com/user-attachments/assets/654ea362-e57d-4040-83c0-0d594c294050)
 
